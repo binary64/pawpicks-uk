@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Cocker Spaniel",
+    "slug": "cocker-spaniels",
+    "ukPopularityRank": 2,
+    "sizeCategory": "medium",
+    "weightRange": "12-16kg",
+    "lifespan": "12-15 years",
+    "activityLevel": "high",
+    "commonHealthIssues": ["ear infections", "hip dysplasia", "eye conditions (PRA)", "skin allergies", "obesity"],
+    "dietaryNeeds": {
+      "protein": "26-30%",
+      "fat": "12-16%",
+      "caloriesPerDay": "700-900 kcal",
+      "feedingAmount": "180-250g dry per day",
+      "keyNutrients": ["omega-3 for coat", "glucosamine for joints", "probiotics for digestion"],
+      "commonSensitivities": ["chicken", "beef", "grains", "dairy"],
+      "breedSpecificNotes": "Cocker Spaniels are prone to ear infections exacerbated by food allergies. Grain-free diets can reduce inflammation that blocks ear canals. They also gain weight easily despite their activity level — controlled portions are essential."
+    },
+    "topPicks": {
+      "bestOverall": { "brand": "Canagan Free-Run Chicken", "why": "60% meat with glucosamine supports their active joints. British-made, good protein-to-fat ratio for medium breeds." },
+      "bestForSensitiveStomach": { "brand": "Symply Fresh Turkey", "why": "Single protein source (turkey) ideal for elimination diets. Many Cockers develop chicken sensitivity — turkey is a clean alternative." },
+      "bestForCoat": { "brand": "Lily's Kitchen Chicken & Duck", "why": "Omega-rich formulation keeps that famous Cocker coat silky. Added botanicals support skin health." },
+      "bestValue": { "brand": "Forthglade Natural Chicken", "why": "50% meat at £7.50/kg. Lower fat (12%) suits Cockers prone to pancreatitis." },
+      "bestPremium": { "brand": "Orijen Original", "why": "85% animal ingredients for maximum nutrition. Calorie-dense — feed less volume." }
+    },
+    "targetKeywords": [
+      "best dog food for cocker spaniels uk",
+      "best grain free food for cocker spaniels",
+      "cocker spaniel food uk 2026",
+      "grain free cocker spaniel food"
+    ]
+  },
+  {
+    "name": "French Bulldog",
+    "slug": "french-bulldogs",
+    "ukPopularityRank": 3,
+    "sizeCategory": "small",
+    "weightRange": "8-14kg",
+    "lifespan": "10-12 years",
+    "activityLevel": "low-moderate",
+    "commonHealthIssues": ["brachycephalic syndrome", "skin fold dermatitis", "allergies", "joint problems", "digestive sensitivity", "flatulence"],
+    "dietaryNeeds": {
+      "protein": "24-28%",
+      "fat": "10-14%",
+      "caloriesPerDay": "500-700 kcal",
+      "feedingAmount": "120-200g dry per day",
+      "keyNutrients": ["probiotics for digestion", "omega-3 for skin folds", "L-carnitine for weight management"],
+      "commonSensitivities": ["grains", "chicken", "soy", "dairy", "artificial additives"],
+      "breedSpecificNotes": "Frenchies are flatulence champions — poor-quality food makes it worse. Their brachycephalic anatomy means eating large kibble is difficult. They overheat easily, so maintaining a healthy weight is critical. Skin fold infections are worsened by food allergies. Grain-free with limited ingredients works best."
+    },
+    "topPicks": {
+      "bestOverall": { "brand": "Lily's Kitchen Chicken & Duck", "why": "Gentle recipe with natural ingredients. Small kibble size works for flat-faced breeds. Added prebiotics reduce the notorious Frenchie gas." },
+      "bestForSensitiveDigestion": { "brand": "Symply Fresh Turkey", "why": "Single protein, hypoallergenic approach. Turkey is less likely to trigger the skin reactions common in French Bulldogs." },
+      "bestForSkinHealth": { "brand": "Canagan Free-Run Chicken", "why": "Omega-3 and omega-6 balance supports skin barrier function. Critical for breeds with skin folds." },
+      "bestValue": { "brand": "Forthglade Natural Chicken", "why": "Lower fat content (12%) suits their sedentary nature. Clean ingredient list without fillers that cause gas." },
+      "bestPremium": { "brand": "Acana Prairie Poultry", "why": "Multiple animal proteins for nutritional diversity. Moderate calorie density for a breed prone to obesity." }
+    },
+    "targetKeywords": [
+      "best dog food for french bulldogs uk",
+      "best grain free food for french bulldogs",
+      "french bulldog food uk 2026",
+      "grain free french bulldog food sensitive stomach"
+    ]
+  },
+  {
+    "name": "Golden Retriever",
+    "slug": "golden-retrievers",
+    "ukPopularityRank": 4,
+    "sizeCategory": "large",
+    "weightRange": "25-34kg",
+    "lifespan": "10-12 years",
+    "activityLevel": "high",
+    "commonHealthIssues": ["hip dysplasia", "elbow dysplasia", "cancer", "skin allergies", "ear infections", "obesity"],
+    "dietaryNeeds": {
+      "protein": "26-32%",
+      "fat": "14-18%",
+      "caloriesPerDay": "1000-1400 kcal",
+      "feedingAmount": "280-400g dry per day",
+      "keyNutrients": ["glucosamine/chondroitin for joints", "omega-3 for coat and anti-inflammatory", "antioxidants for cancer prevention"],
+      "commonSensitivities": ["grains", "chicken", "beef"],
+      "breedSpecificNotes": "Golden Retrievers share many traits with Labradors — big appetite, joint vulnerability, tendency to obesity. However, Goldens have a significantly higher cancer rate (60% develop cancer), making antioxidant-rich food more important. Their luxurious coat needs omega-3 support."
+    },
+    "topPicks": {
+      "bestOverall": { "brand": "Canagan Free-Run Chicken", "why": "Glucosamine + MSM for joint support from day one. 60% meat delivers quality protein for their active lifestyle." },
+      "bestForJoints": { "brand": "Eden Holistic Original", "why": "80% animal ingredients with joint-supporting nutrients. Five meat sources for complete amino acid profile." },
+      "bestForCoat": { "brand": "Orijen Original", "why": "85% animal ingredients rich in omega-3 from whole fish inclusions. Supports that famous golden coat." },
+      "bestValue": { "brand": "Symply Fresh Turkey", "why": "Clean single-protein at £6.33/kg. Good for large breed budgets. Moderate fat suits less active Goldens." },
+      "bestBudget": { "brand": "Harringtons Grain Free Turkey", "why": "At £2/kg, affordable for feeding a large Golden. 30% meat is lower than ideal but grain-free at this price is rare." }
+    },
+    "targetKeywords": [
+      "best dog food for golden retrievers uk",
+      "best grain free food for golden retrievers",
+      "golden retriever food uk 2026",
+      "grain free golden retriever food joints"
+    ]
+  },
+  {
+    "name": "Cockapoo",
+    "slug": "cockapoos",
+    "ukPopularityRank": 5,
+    "sizeCategory": "small-medium",
+    "weightRange": "5-11kg",
+    "lifespan": "13-16 years",
+    "activityLevel": "moderate-high",
+    "commonHealthIssues": ["ear infections", "patellar luxation", "allergies", "eye problems", "hip dysplasia"],
+    "dietaryNeeds": {
+      "protein": "25-30%",
+      "fat": "12-16%",
+      "caloriesPerDay": "400-700 kcal",
+      "feedingAmount": "100-200g dry per day",
+      "keyNutrients": ["omega-3 for curly coat", "probiotics", "joint support for smaller joints"],
+      "commonSensitivities": ["grains", "chicken", "artificial colours"],
+      "breedSpecificNotes": "Cockapoos inherit traits from both Cocker Spaniels and Poodles. From Cockers: ear infection risk and food sensitivities. From Poodles: curly coat needing omega support and dental issues. As a crossbreed, they're generally healthier but their varied genetics mean food reactions can be unpredictable. Start with limited ingredients."
+    },
+    "topPicks": {
+      "bestOverall": { "brand": "Lily's Kitchen Chicken & Duck", "why": "Natural ingredients with omega-rich formulation. Small-medium kibble suits their smaller jaws. Gentle on sensitive stomachs." },
+      "bestForSensitiveStomach": { "brand": "Symply Fresh Turkey", "why": "Limited ingredient approach perfect for crossbreeds with unpredictable food reactions. Turkey only — no chicken." },
+      "bestForCurlyCoat": { "brand": "Canagan Free-Run Chicken", "why": "Omega fatty acids keep that Poodle-inherited coat in condition. Joint support for a breed that stays active well into old age." },
+      "bestValue": { "brand": "Forthglade Natural Chicken", "why": "Clean, simple recipe at a fair price. Lower fat content suits smaller builds." },
+      "bestPremium": { "brand": "Orijen Original", "why": "Nutrient-dense — Cockapoos eat less volume so cost per day is reasonable even at premium prices." }
+    },
+    "targetKeywords": [
+      "best dog food for cockapoos uk",
+      "best grain free food for cockapoos",
+      "cockapoo food uk 2026",
+      "grain free cockapoo food sensitive"
+    ]
+  }
+]
