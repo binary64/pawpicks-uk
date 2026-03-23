@@ -159,3 +159,15 @@ eleventyComputed:
 </ul>
 
 <p>We're an independent review site. We don't accept payment or free products from brands. Our revenue comes from affiliate links — if you buy through our links, we earn a small commission at no extra cost to you. This never influences our recommendations. <a href="{{ '/affiliate-disclosure/' | url }}">Read our full disclosure</a>.</p>
+
+<h2>Guides for Other Breeds</h2>
+<p>Looking for a different breed? We have specific food guides for the UK's most popular dogs:</p>
+<ul>
+  <li><a href="{{ '/best-dog-food-for-labradors/' | url }}">Best Dog Food for Labradors</a></li>
+  {% for otherBreed in breeds %}
+  {% if otherBreed.slug != breed.slug %}
+  <li><a href="{{ ('/best-dog-food-for-' + otherBreed.slug + '/') | url }}">Best Dog Food for {{ otherBreed.name }}s</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<p>Or see our <a href="{{ '/best-grain-free-dog-food-uk/' | url }}">complete grain-free dog food comparison</a> for all breeds.</p>

@@ -52,11 +52,24 @@ description: "Independent UK pet product reviews. Grain-free dog food, harnesses
   </div>
 </div>
 
+<h2 style="margin-top: 3rem;">🐕 Breed-Specific Food Guides</h2>
+<p style="color: var(--color-text-light); margin-bottom: 1rem;">Every breed has different nutritional needs. Find the best grain-free food for your dog.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+  <a href="{{ '/best-dog-food-for-labradors/' | url }}" style="padding: 1rem; background: var(--color-bg-alt); border-radius: 8px; border: 1px solid var(--color-border); text-decoration: none; color: inherit;">
+    <strong>🦮 Labradors</strong><br><span style="font-size: 0.9rem; color: var(--color-text-light);">Joint support + weight management</span>
+  </a>
+  {% for breed in breeds %}
+  <a href="{{ ('/best-dog-food-for-' + breed.slug + '/') | url }}" style="padding: 1rem; background: var(--color-bg-alt); border-radius: 8px; border: 1px solid var(--color-border); text-decoration: none; color: inherit;">
+    <strong>🐾 {{ breed.name }}s</strong><br><span style="font-size: 0.9rem; color: var(--color-text-light);">{{ breed.commonHealthIssues[0] | capitalize }} + {{ breed.commonHealthIssues[1] }}</span>
+  </a>
+  {% endfor %}
+</div>
+
 <h2 style="margin-top: 3rem;">Popular Guides</h2>
 <ul style="line-height: 2;">
-  <li><a href="/best-grain-free-dog-food-uk/">Best Grain-Free Dog Food UK (2026) — Full Comparison</a></li>
-  <li><a href="/is-grain-free-dog-food-good/">Is Grain-Free Dog Food Actually Good for Dogs?</a></li>
-  <li><a href="/grain-free-vs-regular-dog-food/">Grain-Free vs Regular Dog Food — What's the Difference?</a></li>
-  <li><a href="/best-dog-food-for-labradors/">Best Dog Food for Labradors (2026 Guide)</a></li>
+  <li><a href="{{ '/best-grain-free-dog-food-uk/' | url }}">Best Grain-Free Dog Food UK (2026) — Full Comparison</a></li>
+  <li><a href="{{ '/is-grain-free-dog-food-good/' | url }}">Is Grain-Free Dog Food Actually Good for Dogs?</a></li>
+  <li><a href="{{ '/grain-free-vs-regular-dog-food/' | url }}">Grain-Free vs Regular Dog Food — What's the Difference?</a></li>
+  <li><a href="{{ '/best-dog-food-for-labradors/' | url }}">Best Dog Food for Labradors (2026 Guide)</a></li>
 </ul>
 {% endblock %}

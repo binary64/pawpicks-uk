@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
     {%- if page.url == "/" %}
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
-    {%- elif "review" in page.data.tags or "roundup" in page.data.tags %}
+    {%- elif page.data.tags and ("review" in page.data.tags or "roundup" in page.data.tags) %}
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
     {%- else %}
