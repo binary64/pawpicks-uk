@@ -6,7 +6,7 @@
   <title>{{ title }}{% if title %} | {% endif %}{{ site.name }}</title>
   <meta name="description" content="{{ description or site.description }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 
   {# Open Graph #}
   <meta property="og:title" content="{{ title or site.name }}">
@@ -31,10 +31,10 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="/" class="site-logo">🐾 Paw<span>Picks</span></a>
+      <a href="{{ '/' | url }}" class="site-logo">🐾 Paw<span>Picks</span></a>
       <nav class="site-nav">
         {% for item in navigation %}
-        <a href="{{ item.url }}">{{ item.label }}</a>
+        <a href="{{ item.url | url }}">{{ item.label }}</a>
         {% endfor %}
       </nav>
     </div>
@@ -54,7 +54,7 @@
     <div class="container">
       <div>
         <p>© {{ site.lastUpdated | truncate(4, true, '') }} {{ site.name }}. Independent reviews — never sponsored.</p>
-        <p><a href="/about/">About</a> · <a href="/affiliate-disclosure/">Affiliate Disclosure</a> · <a href="/privacy/">Privacy</a></p>
+        <p><a href="{{ '/about/' | url }}">About</a> · <a href="{{ '/affiliate-disclosure/' | url }}">Affiliate Disclosure</a> · <a href="{{ '/privacy/' | url }}">Privacy</a></p>
       </div>
       <div>
         <p>🐾 Made with love by dog owners, for dog owners</p>
