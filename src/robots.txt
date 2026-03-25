@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pawpicks.co.uk/sitemap.xml
+Sitemap: https://binary64.github.io/pawpicks-uk/sitemap.xml
