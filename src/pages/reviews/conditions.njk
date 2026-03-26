@@ -1,0 +1,129 @@
+---
+pagination:
+  data: conditions
+  size: 1
+  alias: condition
+layout: layouts/review.njk
+permalink: "/best-dog-food-for-{{ condition.slug }}-uk/"
+tags: ["roundup"]
+priority: 8
+productKey: "grainFreeDryFood"
+eleventyComputed:
+  title: "{{ condition.metaTitle }}"
+  description: "{{ condition.metaDescription }}"
+  lastUpdated: "2026-03-26"
+  readTime: "12"
+---
+
+<p>{{ condition.heroText }}</p>
+
+<h2>Why Grain-Free Helps with {{ condition.name }}</h2>
+
+<p>{{ condition.whyGrainFree }}</p>
+
+<h2>What to Look For</h2>
+
+<p>When choosing a grain-free food for a dog with {{ condition.name | lower }}, these are the key factors that make a real difference:</p>
+
+{% for item in condition.whatToLookFor %}
+<h3>{{ item.title }}</h3>
+<p>{{ item.detail }}</p>
+{% endfor %}
+
+<h2>Our Top Picks for {{ condition.name }}</h2>
+
+<p>We've tested and reviewed every grain-free dog food on our list specifically for dogs with {{ condition.name | lower }}. Here are our recommendations:</p>
+
+<h3>🏆 Best Overall: {{ condition.topPicks.bestOverall.brand }}</h3>
+<p>{{ condition.topPicks.bestOverall.why }}</p>
+{% affiliateButton "", "Check Price →" %}
+
+{% if condition.topPicks.bestPremium %}
+<h3>⭐ Premium Choice: {{ condition.topPicks.bestPremium.brand }}</h3>
+<p>{{ condition.topPicks.bestPremium.why }}</p>
+{% affiliateButton "", "Check Price →" %}
+{% endif %}
+
+{% if condition.topPicks.bestBudget %}
+<h3>💰 Best Value: {{ condition.topPicks.bestBudget.brand }}</h3>
+<p>{{ condition.topPicks.bestBudget.why }}</p>
+{% affiliateButton "", "Check Price →" %}
+{% endif %}
+
+{% if condition.topPicks.bestForSevere %}
+<h3>🛡️ Best for Severe Cases: {{ condition.topPicks.bestForSevere.brand }}</h3>
+<p>{{ condition.topPicks.bestForSevere.why }}</p>
+{% affiliateButton "", "Check Price →" %}
+{% endif %}
+
+<h2>Full Product Comparison</h2>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Protein</th>
+      <th>Meat %</th>
+      <th>Price/kg</th>
+      <th>Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for product in products.grainFreeDryFood %}
+    <tr>
+      <td><strong>{{ product.name }}</strong></td>
+      <td>{{ product.protein }}</td>
+      <td>{{ product.meatContent }}</td>
+      <td>{{ product.pricePerKg | gbp }}/kg</td>
+      <td>{{ product.bestFor | join(", ") }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if condition.eliminationDietNote %}
+<h2>Consider an Elimination Diet</h2>
+<p>{{ condition.eliminationDietNote | safe }}</p>
+{% endif %}
+
+<h2>When to See Your Vet</h2>
+<p>{{ condition.whenToSeeVet }}</p>
+
+<h2>How We Choose Our Recommendations</h2>
+
+<p>We're an independent UK review site. We don't accept payment or free products from brands. Our recommendations are based on:</p>
+
+<ul>
+  <li><strong>Ingredient analysis</strong> — we read every label, not just the marketing</li>
+  <li><strong>UK owner feedback</strong> — real experiences from dog owners on Reddit, forums, and Trustpilot</li>
+  <li><strong>Veterinary guidance</strong> — aligned with RCVS and BVA nutritional recommendations</li>
+  <li><strong>Price and availability</strong> — products you can actually buy in the UK at fair prices</li>
+</ul>
+
+<p>Our revenue comes from affiliate links — if you buy through our links, we earn a small commission at no extra cost to you. This never influences our recommendations. <a href="{{ '/affiliate-disclosure/' | url }}">Read our full disclosure</a>.</p>
+
+{% if condition.relatedConditions.length > 0 %}
+<h2>Related Guides</h2>
+<ul>
+  {% for related in conditions %}
+  {% if related.slug != condition.slug %}
+  <li><a href="{{ ('/best-dog-food-for-' + related.slug + '-uk/') | url }}">Best Dog Food for {{ related.name }} UK</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+<h2>Breed-Specific Guides</h2>
+<p>Some breeds are more prone to {{ condition.name | lower }} than others. If you have one of these breeds, check our tailored guides:</p>
+<ul>
+  {% for breedSlug in condition.commonBreeds %}
+  {% for breed in breeds %}
+  {% if breed.slug == breedSlug %}
+  <li><a href="{{ ('/best-dog-food-for-' + breed.slug + '/') | url }}">Best Dog Food for {{ breed.name }}s</a></li>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+  <li><a href="{{ '/best-dog-food-for-labradors/' | url }}">Best Dog Food for Labradors</a></li>
+</ul>
+
+<p>Or see our <a href="{{ '/best-grain-free-dog-food-uk/' | url }}">complete grain-free dog food comparison</a> for all dogs.</p>

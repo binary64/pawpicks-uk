@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Itchy Skin",
+    "slug": "itchy-skin",
+    "metaTitle": "Best Dog Food for Itchy Skin UK (2026) — Grain-Free Options That Actually Help",
+    "metaDescription": "Independent UK guide to the best grain-free dog foods for dogs with itchy skin. Vet-informed picks that target inflammation, omega-3 content, and common allergen avoidance.",
+    "heroText": "If your dog is constantly scratching, chewing their paws, or developing hot spots, their food could be the culprit. Grain and common protein allergies are one of the leading causes of itchy skin in dogs — and switching to the right grain-free food can make a dramatic difference within weeks.",
+    "whyGrainFree": "Grains — particularly wheat, corn, and soy — are among the most common dietary triggers for skin inflammation in dogs. When a dog's immune system reacts to these ingredients, it manifests as itching, redness, hot spots, and recurring ear infections. Grain-free foods remove these triggers entirely, and the best ones also provide omega-3 fatty acids that actively reduce inflammation and support the skin barrier.",
+    "whatToLookFor": [
+      {"title": "High omega-3 content", "detail": "Fish-based proteins (salmon, herring, trout) are naturally rich in omega-3 fatty acids, which are proven to reduce skin inflammation. Look for foods where fish is the primary protein, not just an additive."},
+      {"title": "Novel or limited proteins", "detail": "If your dog reacts to chicken (the most common protein allergen), switch to a novel protein they haven't been exposed to — duck, venison, salmon, or turkey. Single-protein foods make it easier to identify triggers."},
+      {"title": "No artificial additives", "detail": "Artificial colours, flavours, and preservatives can trigger or worsen skin reactions. All foods on this page are free from synthetic additives."},
+      {"title": "Added skin-supporting nutrients", "detail": "Look for linseed (flaxseed), fish oil, biotin, zinc, and vitamin E — all proven to support skin health and coat condition."}
+    ],
+    "topPicks": {
+      "bestOverall": {
+        "brand": "Pooch & Mutt Skin & Coat",
+        "why": "Purpose-built for this exact problem. Herring-based for natural omega-3, with added linseed for extra skin support. The only food on our list specifically formulated for dogs with itchy skin. Vet-recommended and widely available in the UK at a reasonable £5.83/kg."
+      },
+      "bestPremium": {
+        "brand": "Millie's Wolfheart Riverside Mix",
+        "why": "Duck and trout provide novel proteins that most dogs haven't been exposed to, making reactions unlikely. Formulated without chicken, eggs, grain, and rice — removing virtually every common allergen in one go. The UK's most recommended brand on dog forums for allergy-prone dogs."
+      },
+      "bestBudget": {
+        "brand": "Symply Fresh Turkey",
+        "why": "Single-protein turkey formula at just £6.33/kg. No chicken, no grain, no common allergens. An excellent starting point for an elimination diet — if itching improves on Symply, you know chicken or grain was the trigger."
+      },
+      "bestForSevere": {
+        "brand": "Scrumbles Salmon Grain-Free",
+        "why": "Salmon provides anti-inflammatory omega-3, while added probiotics (1 billion live bacteria) support gut health — increasingly linked to skin conditions. Slippery elm further soothes the digestive tract. A good choice when itchy skin comes with digestive symptoms."
+      }
+    },
+    "eliminationDietNote": "If you're unsure what's causing the itching, an elimination diet is the gold standard. Feed a single novel protein (like turkey or duck) for 8-12 weeks, then reintroduce ingredients one at a time. See our [elimination diet guide](/guides/elimination-diet-uk/) for a step-by-step walkthrough.",
+    "whenToSeeVet": "While diet changes can dramatically improve skin conditions, see your vet if: your dog has open sores or bleeding from scratching, the itching hasn't improved after 6-8 weeks on a new food, you notice hair loss or skin darkening, or ear infections are recurring. Some skin conditions (mange, bacterial infections, environmental allergies) require medical treatment alongside dietary changes.",
+    "relatedConditions": ["sensitive-stomach", "allergies"],
+    "commonBreeds": ["cocker-spaniels", "french-bulldogs", "golden-retrievers", "german-shepherds", "staffordshire-bull-terriers"]
+  },
+  {
+    "name": "Sensitive Stomach",
+    "slug": "sensitive-stomach",
+    "metaTitle": "Best Dog Food for Sensitive Stomach UK (2026) — Gentle Grain-Free Options Reviewed",
+    "metaDescription": "Independent UK guide to grain-free dog foods for sensitive stomachs. Expert picks focusing on digestibility, probiotics, and gentle ingredients for dogs with upset tummies.",
+    "heroText": "Loose stools, vomiting, excessive wind, or eating grass — if your dog struggles with any of these, their food is likely part of the problem. Grain sensitivities are one of the most common causes of digestive upset in dogs, and switching to a gentle grain-free formula can settle things down surprisingly fast.",
+    "whyGrainFree": "Many dogs lack the digestive enzymes to efficiently break down grains, leading to fermentation in the gut that causes gas, bloating, and loose stools. Grain-free foods use more digestible carbohydrate sources — sweet potato, peas, and chickpeas — that are gentler on the digestive system. The best options also include prebiotics and probiotics to actively support gut health.",
+    "whatToLookFor": [
+      {"title": "Easily digestible proteins", "detail": "Turkey, salmon, and lamb are generally easier to digest than chicken or beef. Fresh or freshly prepared meat is better than heavily processed meat meals."},
+      {"title": "Prebiotics and probiotics", "detail": "Live bacteria cultures (probiotics) and the fibres that feed them (prebiotics like chicory root, FOS, or MOS) directly support healthy gut flora. Some brands include specific probiotic strains at guaranteed levels."},
+      {"title": "Gentle carbohydrate sources", "detail": "Sweet potato releases energy slowly and is kind to digestion. Avoid foods heavy in white potato or legume-dense recipes, which can cause gas in some dogs."},
+      {"title": "Single or limited protein sources", "detail": "Fewer protein sources means less for the gut to process and makes it easier to identify triggers if problems persist."}
+    ],
+    "topPicks": {
+      "bestOverall": {
+        "brand": "Scrumbles Salmon Grain-Free",
+        "why": "The gut-health specialist. Every serving contains 1 billion live probiotic bacteria plus slippery elm — a soothing herb used for centuries to calm upset stomachs. Salmon is an easily digestible protein, and the grain-free recipe removes common gut irritants. Available in most UK pet shops."
+      },
+      "bestPremium": {
+        "brand": "Forthglade Natural Lifestage Chicken",
+        "why": "Cold-pressed at lower temperatures, which preserves nutrients and creates a denser kibble that breaks down gradually in the stomach — reducing the bloating and gas that some dogs get from extruded kibble. Over 50 years of UK manufacturing expertise."
+      },
+      "bestBudget": {
+        "brand": "Symply Fresh Turkey",
+        "why": "Single-protein turkey at £6.33/kg — one of the gentlest proteins for sensitive stomachs. No chicken, no grain, no common irritants. The simplicity of the recipe is its strength: fewer ingredients means fewer potential triggers."
+      },
+      "bestForSevere": {
+        "brand": "Millie's Wolfheart Riverside Mix",
+        "why": "When standard sensitive-stomach foods aren't enough, Millie's removes almost every common allergen: no chicken, grain, egg, rice, or beet pulp. Duck and trout are both highly digestible novel proteins. The brand's forum reputation is built on dogs with severe digestive issues thriving on their recipes."
+      }
+    },
+    "eliminationDietNote": "If digestive problems persist despite switching to a gentle grain-free food, consider a formal elimination diet. Start with a single novel protein for 8-12 weeks, then systematically reintroduce ingredients. See our [elimination diet guide](/guides/elimination-diet-uk/) for a complete walkthrough.",
+    "whenToSeeVet": "See your vet if: diarrhoea lasts more than 48 hours, there's blood in the stool, your dog is losing weight despite eating well, vomiting is frequent or contains bile, or symptoms don't improve after 4-6 weeks on a new food. Chronic digestive issues can indicate IBD, pancreatitis, or other conditions requiring veterinary treatment.",
+    "relatedConditions": ["itchy-skin", "allergies"],
+    "commonBreeds": ["french-bulldogs", "german-shepherds", "dachshunds", "border-collies", "cockapoos"]
+  }
+]

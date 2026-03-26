@@ -22,4 +22,34 @@ eleventyExcludeFromCollections: true
   </url>
   {%- endif %}
   {%- endfor %}
+  {%- for breed in breeds %}
+  {%- set breedUrl = "/best-dog-food-for-" + breed.slug + "/" %}
+  {%- set alreadyListed = false %}
+  {%- for page in collections.all %}
+  {%- if page.url == breedUrl %}{% set alreadyListed = true %}{% endif %}
+  {%- endfor %}
+  {%- if not alreadyListed %}
+  <url>
+    <loc>{{ site.url }}{{ breedUrl }}</loc>
+    <lastmod>2026-03-26</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  {%- endif %}
+  {%- endfor %}
+  {%- for condition in conditions %}
+  {%- set condUrl = "/best-dog-food-for-" + condition.slug + "-uk/" %}
+  {%- set alreadyListed = false %}
+  {%- for page in collections.all %}
+  {%- if page.url == condUrl %}{% set alreadyListed = true %}{% endif %}
+  {%- endfor %}
+  {%- if not alreadyListed %}
+  <url>
+    <loc>{{ site.url }}{{ condUrl }}</loc>
+    <lastmod>2026-03-26</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  {%- endif %}
+  {%- endfor %}
 </urlset>
