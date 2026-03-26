@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/a7f3b2c9d8e4f1a6.txt");
 
   // Custom collections
   eleventyConfig.addCollection("productRoundups", function(collectionApi) {
