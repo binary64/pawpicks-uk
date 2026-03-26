@@ -39,3 +39,29 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit URLs to IndexNow
+        run: |
+          # Extract all URLs from sitemap
+          npm ci
+          npx @11ty/eleventy --output _site 2>/dev/null
+          URLS=$(grep -oP '(?<=<loc>)[^<]+' _site/sitemap.xml | python3 -c "
+          import sys, json
+          urls = [line.strip() for line in sys.stdin if line.strip()]
+          print(json.dumps(urls))
+          ")
+          # Submit to IndexNow (shared across Bing, DuckDuckGo, Yandex, etc.)
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{
+              \"host\": \"binary64.github.io\",
+              \"key\": \"a7f3b2c9d8e4f1a6\",
+              \"keyLocation\": \"https://binary64.github.io/pawpicks-uk/a7f3b2c9d8e4f1a6.txt\",
+              \"urlList\": $URLS
+            }"
+          echo "Submitted $(echo $URLS | python3 -c 'import json,sys; print(len(json.load(sys.stdin)))') URLs to IndexNow"
