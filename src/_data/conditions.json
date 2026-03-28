@@ -70,5 +70,41 @@
     "whenToSeeVet": "See your vet if: diarrhoea lasts more than 48 hours, there's blood in the stool, your dog is losing weight despite eating well, vomiting is frequent or contains bile, or symptoms don't improve after 4-6 weeks on a new food. Chronic digestive issues can indicate IBD, pancreatitis, or other conditions requiring veterinary treatment.",
     "relatedConditions": ["itchy-skin", "allergies"],
     "commonBreeds": ["french-bulldogs", "german-shepherds", "dachshunds", "border-collies", "cockapoos"]
+  },
+  {
+    "name": "Allergies",
+    "slug": "allergies",
+    "metaTitle": "Best Dog Food for Allergies UK (2026) — Hypoallergenic Grain-Free Options Reviewed",
+    "metaDescription": "Independent UK guide to the best grain-free dog foods for dogs with food allergies. Novel proteins, limited ingredients, and hypoallergenic picks that actually work.",
+    "heroText": "Food allergies affect up to 10% of dogs in the UK, and the symptoms go far beyond an upset stomach. Chronic ear infections, paw licking, facial rubbing, anal gland problems, and recurring skin infections can all trace back to a food allergy. The most common culprits? Beef, chicken, dairy, wheat, and soy — ingredients found in the vast majority of conventional dog foods.",
+    "whyGrainFree": "Wheat and corn are among the top six most common food allergens for dogs. A grain-free diet eliminates two of these triggers immediately, which is why vets frequently recommend it as a first step for allergy-prone dogs. But grain-free alone isn't enough — if your dog is allergic to chicken (the single most common protein allergen in dogs), a grain-free chicken food won't help. The key is combining grain-free with a novel or limited-ingredient protein source your dog hasn't been exposed to before.",
+    "whatToLookFor": [
+      {"title": "Novel protein sources", "detail": "Novel proteins are ones your dog has never eaten before — making an allergic reaction virtually impossible. Duck, venison, rabbit, and certain fish (herring, trout) are excellent choices. The more unusual the protein, the less likely your dog has developed a sensitivity to it."},
+      {"title": "Limited ingredient lists", "detail": "Fewer ingredients means fewer potential triggers. The best hypoallergenic foods use a single animal protein and a single carbohydrate source. This makes it much easier to identify exactly what your dog reacts to if symptoms persist."},
+      {"title": "No common allergens", "detail": "Beyond grains, avoid foods containing beef, chicken, dairy, eggs, and soy — the six most reported canine food allergens in UK veterinary literature. Check ingredient lists carefully; chicken fat and egg are hidden in many 'hypoallergenic' foods."},
+      {"title": "Named, specific ingredients", "detail": "Avoid foods listing vague terms like 'meat meal', 'animal derivatives', or 'cereals'. These can contain anything, making it impossible to know what your dog is actually eating. Every ingredient should be specifically named."}
+    ],
+    "topPicks": {
+      "bestOverall": {
+        "brand": "Millie's Wolfheart Riverside Mix",
+        "why": "The gold standard for allergy-prone dogs in the UK. Formulated without chicken, grain, egg, rice, beet pulp, or any of the top six allergens. Duck and trout provide two novel proteins that most dogs have never been exposed to. The brand's cult following on UK dog forums is built almost entirely on allergy success stories. At £5.08/kg, it's remarkably affordable for a truly hypoallergenic food."
+      },
+      "bestPremium": {
+        "brand": "Orijen Original",
+        "why": "85% quality animal ingredients with no grains, fillers, or artificial anything. While Orijen uses multiple proteins (which isn't ideal for elimination diets), it's excellent for dogs whose specific allergens have already been identified — as long as they're not chicken or egg. The WholePrey approach provides complete nutrition without synthetic supplements."
+      },
+      "bestBudget": {
+        "brand": "Symply Fresh Turkey",
+        "why": "The perfect elimination diet food. Single protein (turkey), single carbohydrate base (sweet potato), no chicken, no grain, no common allergens. At £6.33/kg, it's the most affordable way to start identifying your dog's specific triggers. If symptoms clear on Symply, you've confirmed a food allergy — then reintroduce ingredients one at a time."
+      },
+      "bestForSevere": {
+        "brand": "Pooch & Mutt Skin & Coat",
+        "why": "When allergies primarily manifest as skin problems — which they do in the majority of cases — this herring-based formula attacks on two fronts. The novel fish protein avoids common allergens, while the high omega-3 content actively reduces the inflammatory response that causes itching, redness, and hot spots. Added linseed provides further anti-inflammatory support."
+      }
+    },
+    "eliminationDietNote": "An elimination diet is the only reliable way to identify your dog's specific food allergens. It involves feeding a single novel protein for 8-12 weeks, then systematically reintroducing ingredients. It requires discipline (no treats, no table scraps, no flavoured medications during the trial), but the results are definitive. See our <a href=\"/guides/elimination-diet-uk/\">elimination diet guide</a> for a complete step-by-step walkthrough.",
+    "whenToSeeVet": "See your vet before starting an elimination diet if: your dog has severe symptoms (open sores, significant weight loss, bloody stools), symptoms appeared suddenly after years on the same food (may indicate a different condition), your dog is a puppy under 6 months, or you've tried multiple diet changes without improvement. Your vet can also discuss hydrolysed protein prescription diets for severe cases where commercial novel protein foods aren't sufficient.",
+    "relatedConditions": ["itchy-skin", "sensitive-stomach"],
+    "commonBreeds": ["cocker-spaniels", "french-bulldogs", "golden-retrievers", "german-shepherds", "labradors", "dachshunds", "staffordshire-bull-terriers"]
   }
 ]
